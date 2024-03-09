@@ -8,3 +8,36 @@
     color: #fff; /* Set text color to white for better visibility */
     background: linear-gradient(to bottom right, var(--primary-color-shade-one), var(--primary-color-shade-two)); /* Set your gradient colors directly in the CSS */
 }
+
+.iconContainer {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    height: 50%;
+    text-align: center;
+    color: var(--text-color-main);
+  }
+
+  .iconsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  
+  .icons{
+    font-size: 20px;
+    transition: fill 0.3s;
+  }
+
+  .icons:hover {
+    fill: var(--secondary-color)
+  }
+
+  .verticalLine {
+    margin-top: 15px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid #fff; /* Adjust the color and width of the line */
+    height: 100%;
+  }
