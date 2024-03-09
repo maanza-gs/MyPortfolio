@@ -1312,6 +1312,16 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
+"@fontsource/source-code-pro@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-code-pro/-/source-code-pro-5.0.17.tgz#a69df6b9fc19fe8b2d04126ce28ad9213cf0049b"
+  integrity sha512-Q5GfthInOTW+Ek5k97/LH6FWLmD+IwHwBEEXF+KStvsyPwSZz+0ssdWJfz/ZRaTZxOk7FwlRgysXAWo41fq6bQ==
+
+"@fontsource/source-sans-pro@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-5.0.8.tgz#e246405a3bcdcf2ae6f9d7019c0d78ead71a492a"
+  integrity sha512-5U2UvIYRkCMozZ388gCE73PEpa2MFgN/0t9O4a1FF7bGT/MIneQWSL1XpWZ8iMVYdh6ntxRf3iFA6slCIuFgkg==
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
@@ -4769,6 +4779,11 @@ follow-redirects@^1.0.0:
   version "1.15.5"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.5.tgz#54d4d6d062c0fa7d9d17feb008461550e3ba8020"
   integrity sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==
+
+fontsource-source-sans-pro@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-source-sans-pro/-/fontsource-source-sans-pro-4.0.0.tgz#aa2dcdc178f4d6ba08815449431d78fb4a78fe65"
+  integrity sha512-1PHVhsemInovKS6TJ2voUzo4akMov2bJB5KkVxdymXkZZ8KVLsz6p1ku4TPQBJjiHFfSG71K8oLty44unmhMiw==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -8528,6 +8543,11 @@ sockjs@^0.3.24:
     faye-websocket "^0.11.3"
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
+
+source-code-pro@^2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/source-code-pro/-/source-code-pro-2.38.0.tgz#85c57689f7386bb9d0515fb00ba4845bfb7b485b"
+  integrity sha512-JMXu7l3XrLREG17eEwY66ANG9716WTu6OeNvZfRKQKANEvbSERDZjk5AYTHeV6owQNPQTeiiW3ri2Ou93XFGvg==
 
 source-list-map@^2.0.0, source-list-map@^2.0.1:
   version "2.0.1"
