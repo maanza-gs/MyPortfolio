@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+.sectionOne {
+  height: 2%;
+  row-gap: 10px;
+}
+
+.textTypeOne {
+  font-family: "Source Code Pro";
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.textTypeTwo {
+  margin-top: -1%;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.textTypeThree {
+  margin-top: -1%;
+
+  width: 50%;
+  font-size: 20px;
+  color: var(--text-color-secondary);
+}

@@ -12,6 +12,7 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro';
+  color: var(--text-color-main);
   cursor: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F3651886%2Fcircle_cursor_select_icon&psig=AOvVaw13VtKB0P562oW3JQDHXu9X&ust=1710098664104000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCz-Yz054QDFQAAAAAdAAAAABAp'), auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

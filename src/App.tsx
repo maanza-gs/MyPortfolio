@@ -9,7 +9,7 @@ import "@fontsource/source-code-pro";
 import "@fontsource/source-code-pro/400.css";
 import "@fontsource/source-code-pro/600.css";
 import "@fontsource/source-code-pro/700.css";
-import MainLayout from "./pages/main";
+import MainLayout from "./pages/mainLayout";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import AnimatedCursor from "react-animated-cursor";
