@@ -16,6 +16,7 @@
     height: 50%;
     text-align: center;
     color: var(--text-color-main);
+    overflow: hidden;
   }
 
   .iconsContainer {
@@ -33,6 +34,17 @@
     fill: var(--secondary-color)
   }
 
+  .logoContainer {
+    position: fixed;
+    top: 3%;
+    left: 4%;
+  }
+
+  .logoContainer img{
+   width: 55px;
+  }
+
+
   .verticalLine {
     margin-top: 15px;
     position: relative;
@@ -40,4 +52,14 @@
     left: 50%;
     border-left: 2px solid #fff; /* Adjust the color and width of the line */
     height: 100%;
+  }
+
+  .verticalText {
+    font-size: 150px;
+    position: fixed;
+    right: 0;
+    /* transform-origin: top right; */
+    transform: translate(-50%, -50%) rotate(90deg);
+    white-space: nowrap;
+    font-family: 'Nyx';
   }
