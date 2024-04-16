@@ -26,8 +26,7 @@ export default function MainLayout() {
   useEffect(() => {
     const path = location.pathname;
 
-    if (path === RouteConstants.about.path || path == "/")
-      setCurrentPage(Pages.ABOUT);
+    if (path == "/") setCurrentPage(Pages.ABOUT);
     else if (path === RouteConstants.experience.path)
       setCurrentPage(Pages.EXPERIENCE);
     else if (path === RouteConstants.contact.path)
@@ -38,7 +37,7 @@ export default function MainLayout() {
 
   return (
     <div>
-      <div id="gradientContainer" style={{ position: "sticky" }}>
+      <div id="gradientContainer" style={{ position: "fixed" }}>
         <div className="iconContainer">
           <div style={{ display: "flex" }}>
             <div className="logoContainer">
@@ -71,7 +70,6 @@ export default function MainLayout() {
           <div className="verticalLine"></div>
         </div>
         <Navbar currentPage={currentPage} />
-
         <Routes>
           <Route path={RouteConstants.about.path} element={<MyAbout />} />
           <Route
@@ -82,8 +80,6 @@ export default function MainLayout() {
           <Route path={RouteConstants.contact.path} element={<MyContact />} />
         </Routes>
       </div>{" "}
-      {/* <div style={{position: 'sticky'}}> */}
-      {/* </div> */}
     </div>
   );
 }

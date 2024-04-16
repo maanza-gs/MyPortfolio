@@ -1,6 +1,6 @@
 export const RouteConstants = {
     about: {
-        path: '/about',
+        path: '/',
         key: '1',
         text: 'ABOUT'
     },
